@@ -1,5 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.adip">
+
+    <uses-permission android:name="android.permission.SEND_SMS"/>
    <application
         android:label="adip"
         android:name="${applicationName}"
